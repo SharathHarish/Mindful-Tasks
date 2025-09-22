@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>To Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app" role="application" aria-labelledby="app-title">
+    <header>
+      <div>
+        <h1 id="app-title">Mindful Tasks</h1>
+        <p>Plan yours tasks here!.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="input-row">
+        <input id="newTask" autocomplete="off" placeholder="Add a new task" aria-label="Add new task" />
+        <button id="addBtn" aria-label="Add task">Add</button>
+      </div>
+
+      <div class="controls">
+        <div class="filters" role="tablist" aria-label="Filter tasks">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-filter="active" role="tab" aria-selected="false">Incomplete</button>
+          <button class="filter-btn" data-filter="completed" role="tab" aria-selected="false">Completed</button>
+        </div>
+        <div class="counter" aria-live="polite"><span id="remaining">0</span> left</div>
+      </div>
+
+      <ul id="todoList" class="list" aria-live="polite"></ul>
+
+      <div id="emptyState" class="empty" hidden>
+        No tasks 
+      </div>
+
+      <footer>
+        <div>
+          <label style="font-size:13px;color:var(--muted)"><input type="checkbox" id="toggleAll" /> Toggle all</label>
+        </div>
+        <div>
+          <button id="clearCompleted" class="clear-btn">Clear completed</button>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
