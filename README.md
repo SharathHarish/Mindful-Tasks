@@ -30,3 +30,20 @@ A simple, responsive To-Do application built with **HTML**, **CSS**, and **Vanil
 
 ```bash
 git clone https:/https://github.com/SharathHarish/Mindful-Tasks.git
+
+Technologies Used
+
+HTML5 – for structuring the web page.
+
+CSS3 – for styling and responsive design.
+
+JavaScript (ES6+) – for interactivity and local storage.
+
+Project Structure
+todo-app/
+│
+├─ index.html        # Main HTML page
+├─ style.css         # Styling
+├─ script.js         # JavaScript logic
+└─ README.md         # Project information
+
