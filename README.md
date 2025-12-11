@@ -53,12 +53,14 @@ JavaScript (ES6+)
 Local Storage API
 
 📂 Project Structure
+
 Mindful-Tasks/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+
 
 🚀 How to Run the Project
 
