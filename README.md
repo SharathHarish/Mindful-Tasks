@@ -1,4 +1,4 @@
-##Mindful Tasks – To-Do List Application##
+Mindful Tasks – To-Do List Application
 
 A clean, responsive, and user-friendly To-Do List application built using HTML, CSS, and JavaScript.
 Designed to help users manage daily tasks efficiently with features like task creation, editing, deletion, completion tracking, and persistent storage through Local Storage.
